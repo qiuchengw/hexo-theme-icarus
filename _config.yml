@@ -1,8 +1,9 @@
 # Menus
 menu:
   Home: .
-  Archives: archives
-  Tags: tags
+  Blog: /blog
+  Archives: blog/archives
+  Tags: blog/tags
 
 # Customize
 customize:

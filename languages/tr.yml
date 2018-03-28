@@ -12,6 +12,7 @@ nav:
     newer: 'Yeni'
 widget:
     recents: 'Son'
+    relateds: 'Ilgili'
     archives: 'Arşivler'
     categories: 'Kategoriler'
     links: 'Linkler'

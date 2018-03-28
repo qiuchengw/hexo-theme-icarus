@@ -12,6 +12,7 @@ nav:
     newer: 'Новые'
 widget:
     recents: 'недавние'
+    relateds: 'Связанный'
     archives: 'архивы'
     categories: 'категории'
     links: 'ссылки'

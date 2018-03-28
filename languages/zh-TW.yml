@@ -12,6 +12,7 @@ nav:
     newer: '上一篇'
 widget:
     recents: '最新文章'
+    relateds: '有關'
     archives: '歸檔'
     categories: '分類'
     links: '連結'

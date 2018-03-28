@@ -3,7 +3,6 @@ menu:
   Home: .
   Archives: archives
   Tags: tags
-  About: https://mozix.ir
 
 # Customize
 customize:
@@ -15,7 +14,7 @@ customize:
     profile:
         enabled: true
         gravatar: ali.moez.gholami@gmail.com
-        author: Moez
+        author: Ali Moezgholami
         author_title: Software Engineer
         location: Austin, Texas
     highlight: monokai
@@ -23,9 +22,9 @@ customize:
     thumbnail: true
     favicon: /images/favicon.ico
     social_links:
+        twitter: https://twitter.com/moezzgh
         github: http://github.com/moezgholami
-        twitter: /
-    social_link_tooltip: true # enable the social link tooltip, options: true, false
+    social_link_tooltip: false
 
 # Widgets
 widgets:
@@ -41,7 +40,7 @@ comment:
     disqus: mozix
 
 # Share
-share: default # options: jiathis, bdshare, addtoany, default
+share: default
 
 # Plugins
 plugins:

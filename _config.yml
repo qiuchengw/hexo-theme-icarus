@@ -24,7 +24,8 @@ customize:
     favicon: /images/favicon.ico
     social_links:
         twitter: https://twitter.com/moezzgh
-        github: http://github.com/moezgholami
+        linkedin: https://www.linkedin.com/in/ali-moezgholami-aa610689
+        github: https://github.com/moezgholami
     social_link_tooltip: false
 
 # Widgets

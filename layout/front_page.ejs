@@ -1,0 +1,13 @@
+<%
+    var config = Object.assign({}, theme);
+    config.menu = {
+        "Home": "/",
+        //"Personal Statement": "/statement",
+        "Contact": "/contact",
+        "Blog": "/blog"
+    };
+    config.customize = Object.assign({}, theme.customize);
+    config.customize.profile = Object.assign({}, theme.customize.profile);
+    config.customize.profile.enabled = false;
+%>
+<%- partial('common/front_page') %>

@@ -2,8 +2,9 @@
 menu:
   Home: .
   Blog: /blog
-  Archives: blog/archives
-  Tags: blog/tags
+  Archives: /blog/archives
+  Tags: /blog/tags
+  Contact: /contact
 
 # Customize
 customize:

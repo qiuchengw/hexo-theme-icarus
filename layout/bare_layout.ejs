@@ -1,0 +1,16 @@
+<%- partial('common/head') %>
+<body>
+    <div id="container">
+        <% if(locals.config) { %>
+                <%- partial('common/header', {config: config}) %>
+        <% } else { %>
+                <%- partial('common/header', {config: theme}) %>
+        <% } %>
+        <div class="outer">
+            <section id="main" style="width:100%"><%- body %></section>
+        </div>
+        <%- partial('common/footer', null, {cache: !config.relative_link}) %>
+        <%- partial('common/scripts') %>
+    </div>
+</body>
+</html>

@@ -2,8 +2,9 @@
 <%- partial('plugin/scripts') %>
 
 <!-- Custom Scripts -->
+<%- js('js/main') %>
 <%  if(page.scripts) { %>
 <%      for(var i in page.scripts) { %>
-    <script src="<%= page.scripts[i] %>"></script>
+<%-         js(page.scripts[i]) %>
 <%      } %>
 <%  } %>

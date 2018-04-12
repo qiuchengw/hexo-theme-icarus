@@ -32,7 +32,6 @@ customize:
 # Widgets
 widgets:
     - recent_posts
-    - tagcloud
 
 # Search
 search:

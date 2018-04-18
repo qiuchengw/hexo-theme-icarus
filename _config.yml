@@ -1,6 +1,5 @@
 # Menus
 menu:
-  Home: .
   Blog: /blog
   Archives: /blog/archives
   Tags: /blog/tags

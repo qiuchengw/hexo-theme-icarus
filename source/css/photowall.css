@@ -35,7 +35,7 @@
 .photowall .photo-item{
     display: block;
     width: 50%;
-    height: auto;
+    height: 200px;
     float: left;
     position: relative;
     overflow: hidden;
@@ -77,12 +77,14 @@
     color: #969595;
 }
 
-.photowall .photo-item .media{
+.photowall .photo-item img{
     width: 100%;
-    vertical-align: middle;
+    height: 100%;
+    object-fit:cover;
+    object-position:center center;
 }
 
-.photowall .photo-item .caption{
+.photowall .photo-item a .caption{
     position: absolute;
     display: block;
     width: 100%;
@@ -90,10 +92,12 @@
     top: 0;
     left: 0;
     background: #FFFD4C;
+    transition:all 0.25s linear;    
     opacity: 0;
 }
 
 .photowall .photo-item a:hover .caption{
+    transition:all 0.25s linear;    
     opacity: 0.7;
 }
 
@@ -112,12 +116,13 @@
     max-width: 90%;
     padding: 20px 0;
     z-index: 77;
-    color: #454545;
+    color: black;
     font-family: "raleway-regular", arial;
-    font-size: 16px;
+    font-size: 30px;
+    font-weight: bold;
     letter-spacing: .5px;
-    border-bottom: 1px solid #bfbbbb;
-    border-top: 1px solid #bfbbbb;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    border-top: 1px solid rgb(160, 160, 160);
 }
 
 .photowall .gallery-container{
@@ -203,7 +208,7 @@
 @media (max-width:1099px){
     .photowall .photo-item{
         width: 50%;
-    }
+    }    
     .photowall{
         width: 100%;
         position: relative;
@@ -214,6 +219,7 @@
 @media (max-width:550px){
      .photowall .photo-item{
         width: 100%;
+        height:300px;
     }
 }
 

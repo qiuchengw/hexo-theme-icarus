@@ -2,5 +2,5 @@
     <% site.categories.findOne({name: '摄影'}).posts.forEach(function(item){ %>
         <%- partial('_partial/article-index', {item: item}) %>
     <% }); %>
-    <%- partial('_partial/pagination') %>
+    <!-- <%- partial('_partial/pagination') %> -->
 </section>

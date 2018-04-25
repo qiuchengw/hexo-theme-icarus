@@ -1,6 +1,6 @@
 # Menus
 menu:
-  首页: .
+  # 首页: .
   # Categories: categories
   # 标签: tags
   照片墙: photowall
@@ -18,20 +18,21 @@ customize:
         enabled: true # Whether to show profile bar
         avatar: css/images/avatar.png
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: PPOffice
-        author_title: Web Developer & Designer
-        location: Harbin, China
-        follow: https://github.com/ppoffice/
+        author: 风子
+        author_title: 码农 & 男 & 1987
+        location: 深圳, 中国
+        follow: https://github.com/qiuchengw/
+        photowall: /photowall
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
     social_links:
-        github: http://github.com/ppoffice/hexo-theme-icarus
-        twitter: /
-        facebook: /
-        dribbble: /
-        rss: /
+        # github: /
+        # twitter: /
+        # facebook: /
+        # dribbble: /
+        # rss: /
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
 # Widgets

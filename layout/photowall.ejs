@@ -1,5 +1,5 @@
 <section class="photowall clearfix">
-    <% site.categories.findOne({name: '摄影'}).posts.forEach(function(item){ %>
+    <% site.categories.findOne({name: '摄影'}).posts.sort('date', -1).forEach(function(item){ %>
         <%- partial('_partial/article-index', {item: item}) %>
     <% }); %>
     <!-- <%- partial('_partial/pagination') %> -->

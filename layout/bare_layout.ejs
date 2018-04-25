@@ -2,7 +2,7 @@
 <body>
     <div id="container">
         <% if(locals.config) { %>
-                <%- partial('common/header', {config: config}) %>
+                <%- partial('common/header', {config: theme}) %>
         <% } else { %>
                 <%- partial('common/header', {config: theme}) %>
         <% } %>

@@ -29,12 +29,13 @@
     z-index: 55;
     clear: both;
     min-height: 100vh;
+    margin-top:40px;
 }
 
 /*  Home/portfolio  */
 .photowall .photo-item{
     display: block;
-    width: 50%;
+    width: 33.3333333%;
     height: 200px;
     float: left;
     position: relative;
@@ -205,15 +206,28 @@
 }
 
 /*  Responsive code  */
-@media (max-width:1099px){
+@media (max-width:2000px){
+    .photowall .photo-item{
+        width: 20%;
+    }    
+}
+
+@media (max-width:1600px){
+    .photowall .photo-item{
+        width: 25%;
+    }    
+}
+
+@media (max-width:1200px){
+    .photowall .photo-item{
+        width: 33.3333333%;
+    }    
+}
+
+@media (max-width:900px){
     .photowall .photo-item{
         width: 50%;
     }    
-    .photowall{
-        width: 100%;
-        position: relative;
-        padding-left: 0;
-    }
 }
 
 @media (max-width:550px){

@@ -1,11 +1,11 @@
 # Menus
 menu:
-  Home: .
-  Archives: archives
-  Categories: categories
-  Tags: tags
-  About: about
-  Photowall: photowall
+  首页: .
+  # Categories: categories
+  # 标签: tags
+  照片墙: photowall
+  文档: archives
+  关于: about
 
 # Customize
 customize:
@@ -36,11 +36,11 @@ customize:
 
 # Widgets
 widgets:
-    - recent_posts
     - category
-    - archive
+    - recent_posts
     - tag
     - tagcloud
+    - archive
     - links
 
 # Search

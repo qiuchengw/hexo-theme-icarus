@@ -12,7 +12,6 @@ nav:
     newer: '新しい記事'
 widget:
     recents: '最近の記事'
-    relateds: '関連する'
     archives: 'アーカイブ'
     categories: 'カテゴリ'
     links: 'リンク'

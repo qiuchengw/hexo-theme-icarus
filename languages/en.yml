@@ -12,7 +12,6 @@ nav:
     newer: 'Newer'
 widget:
     recents: 'recent'
-    relateds: 'related'
     archives: 'archives'
     categories: 'categories'
     links: 'links'

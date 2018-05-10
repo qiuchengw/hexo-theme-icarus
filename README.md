@@ -1,6 +1,10 @@
 # qIcarus
 
-修改自[hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus)。添加了照片墙页面。效果图如下：
+修改自[hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus)。添加功能：
+> * 照片墙
+> * 隐藏特定文章
+
+照片墙页面。效果图如下：
 ![photowall](https://github.com/qiuchengw/hexo-theme-icarus/raw/master/screen_shots/photowall.jpg)
 
 演示页面请见我的个人博客：[http://piaode.ren](http://piaode.ren)

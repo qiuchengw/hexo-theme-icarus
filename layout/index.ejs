@@ -1,5 +1,7 @@
 <% page.posts.each(function(post) { %>
-    <%- partial('common/article', { post: post, index: true }) %>
+    <% if (post.visible !== 'hide'){ %>
+        <%- partial('common/article', { post: post, index: true }) %>
+    <% } %>
 <% });
 if (page.total > 1) { %>
     <nav id="page-nav">

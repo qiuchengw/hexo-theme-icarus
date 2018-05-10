@@ -23,6 +23,7 @@ customize:
         location: 深圳, 中国
         follow: https://github.com/qiuchengw/
         photowall: /photowall
+        fixed: true
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
     thumbnail: true # enable posts thumbnail, options: true, false
@@ -37,9 +38,9 @@ customize:
 
 # Widgets
 widgets:
-    - category
     - recent_posts
-    - tag
+    - category
+    # - tag
     - tagcloud
     - archive
     - links
@@ -77,7 +78,7 @@ comment:
     
 
 # Share
-share: jiathis # options: jiathis, bdshare, addtoany, default
+share: bdshare # options: jiathis, bdshare, addtoany, default
 
 # Plugins
 plugins:

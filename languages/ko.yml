@@ -12,7 +12,6 @@ nav:
     newer: '다음 글'
 widget:
     recents: '최근 글'
-    relateds: '관련'
     archives: '아카이브'
     categories: '카테고리'
     links: '링크'
